@@ -1,5 +1,5 @@
 import { useState } from "react";
-<<<<<<< HEAD
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
 
 function Square() {
@@ -63,7 +63,6 @@ function Square() {
   );
 }
 export default Square;
-=======
 
 function Square({ value, onSquareClick }) {
   return (
@@ -140,4 +139,3 @@ function calculateWinner(squares) {
   }
   return null;
 }
->>>>>>> daa8087 (Tic Tac Toe Project)
